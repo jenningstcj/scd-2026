@@ -50,6 +50,14 @@ source .venv/bin/activate
 mkdocs build
 ```
 
+## Deploy
+
+```sh
+source .venv/bin/activate
+mkdocs build
+mkdocs gh-deploy
+```
+
 Outputs static HTML/CSS/JS to `site/`, ready to upload to any static host
 (Firebase Hosting, Netlify, S3, etc. — the old site used Firebase, see
 `scd-gatsby/firebase.json`).
