@@ -1,0 +1,27 @@
+:root {
+  --scd-blue: #00518d;
+}
+
+.md-header {
+  background-color: var(--scd-blue);
+}
+
+[data-md-color-scheme="default"] .md-tabs {
+  background-color: var(--scd-blue);
+}
+
+.scd-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.25rem;
+  padding: 1rem 1.25rem;
+  background-color: var(--md-code-bg-color);
+}
+
+.scd-card img {
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.md-typeset .grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+}
