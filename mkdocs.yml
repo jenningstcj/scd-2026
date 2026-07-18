@@ -5,7 +5,7 @@ site_description: >-
   costs through development and implementation of effective and efficient
   claims management strategies.
 site_url: https://strategicclaimsdirection.com/
-copyright: Copyright &copy; 2026 Tyler Jennings
+copyright: Copyright &copy; 2026
 
 theme:
   name: material
@@ -51,3 +51,8 @@ extra:
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/pub/gary-jennings/1/428/346
+    - icon: fontawesome/regular/envelope
+      link: mailto:Gary.Jennings@StrategicClaimsDirection.com
+    - icon: fontawesome/solid/phone-alt
+      link: tel:6785203739
+  generator: false
